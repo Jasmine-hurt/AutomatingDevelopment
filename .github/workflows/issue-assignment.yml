@@ -3,6 +3,9 @@ name: Assign Issues
 on:
   issues:
     types: [opened]
+    
+permissions:
+  issues: write 
 
 jobs:
   assign:
